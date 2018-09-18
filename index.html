@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+        <script src="index.js"></script>
+        <title class="title">Harvard Art Museums Galleries</title>
+    </head>
+
+    <body>
+        <h1 class="title">Harvard Art Museums</h1>
+
+        <div>
+            <form class="buttons" id="gohome"> 
+            <input type=button value="Home" 
+            onclick="goHome()">
+            </form>
+        </div>
+    
+        <div id="all-galleries">
+            <h2>Galleries</h2>
+            <ul id="galleries">
+            </ul>
+        </div>
+
+        <div class="all-objects" id="all-objects" style="display:none">
+            <h2>Objects</h2>
+            <ul id="objects">
+            </ul>
+
+            <form class="buttons" id="backbutton1"> 
+            <input type=button value="Back" 
+            onclick="backButton1()">
+            </form>
+        </div>
+
+        <div id="all-objectdetails" style="display:none">
+            <h2>Object Details</h2>
+            <ul id="objectdetails">
+            </ul>
+
+            <form class="buttons" id="backbutton2"> 
+            <input type=button value="Back" 
+            onclick="backButton2()">
+            </form>
+        </div>
+    </body>
+</html>
