@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+    color: white;
+    background-color: tomato;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.gallery-image {
+    width: 80px;
+}
+
+body {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+.buttons {
+    background-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+}
+
